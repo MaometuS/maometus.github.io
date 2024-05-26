@@ -56,11 +56,11 @@ export const items: Array<Project> = [
 			},
 			{
 				label: 'Admin Panel',
-				src: screenshot('rq_admin_panel.jpg')
+				src: screenshot('rq_admin_panel.png')
 			},
 			{
 				label: 'AdAM',
-				src: screenshot('rq_adam_panel.jpg')
+				src: screenshot('rq_adam_panel.png')
 			},
 		],
 	},

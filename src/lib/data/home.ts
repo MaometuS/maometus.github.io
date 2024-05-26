@@ -22,4 +22,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 ];
 
-export const skills = getSkills('go', 'flutter', 'dart', 'postgresql', 'redis', 'nginx', 'angular', 'html', 'css', 'js', 'docker', 'rabbitmq');
+export const skills = getSkills('go', 'flutter', 'dart', 'postgresql', 'nginx', 'docker');
