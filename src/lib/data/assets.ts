@@ -3,6 +3,7 @@ import { theme } from '$lib/stores/theme';
 import { base } from '$app/paths';
 
 const gh = (file: string) => `${base}/logos/${file}`;
+export const screenshot = (file: string) => `${base}/screenshots/${file}`;
 
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
@@ -70,7 +71,15 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Tohoku: a('tohoku.svg'),
+	Tatu: a('tatu.jpg'),
+	Qoob: a('qoob.png'),
+	Reqlama: a('reqlama.jpg'),
+	Linux: a('linux.png'),
+	PHP: a('php.svg'),
+	Delphi: a('delphi.png'),
+	HTMX: a('htmx.png'),
 };
 
 export default Assets;

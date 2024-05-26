@@ -3,39 +3,23 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Mukhammad';
 
-export const lastName = 'LastName';
+export const lastName = 'Rakhimov';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'I have been fascinated with coding all my conscious life. I build my first program at the age of 10 and never looked back since. I have been exploring the world of coding both professionally and as a leisure. I am always excited solve complex problems by building versatile systems. One of my proudest projects is the platform Reqlama.uz, which is a large advertising aggregation system. Looking forward to helping more clients with their various automation issues. If you are interested in working with me, please reach out. I will be glad to talk to you.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/MaometuS' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://www.linkedin.com/in/maometus/'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'maometusu@gmail.com'
 	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('go', 'flutter', 'dart', 'postgresql', 'redis', 'nginx', 'angular', 'html', 'css', 'js', 'docker', 'rabbitmq');

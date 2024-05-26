@@ -1,52 +1,66 @@
 import Assets from './assets';
 import { getSkills } from './skills';
-import { ContractType, type Experience } from '../types';
+import { ContractType, type Experience} from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		slug: 'freelance',
+		company: 'Freelance',
+		description: 'Creating accounting systems for drug stores.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		period: { from: new Date(2016, 0, 1), to: new Date(2018, 6, 1) },
+		skills: getSkills('delphi'),
+		name: 'Desktop developer',
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		shortDescription: 'Creating accounting systems for drug stores.'
 	},
 	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
+		slug: 'qoob-creation',
+		company: 'Qoob Creation',
+		description: 'Making different types of web solutions for businesses. Landing pages, portals, accounting web systems, CRM style web systems.',
+		contract: ContractType.PartTime,
 		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
+		location: 'Urgench city. Uzbekistan',
+		period: { from: new Date(2018, 6, 1), to: new Date(2019, 4, 1) },
+		skills: getSkills('ts', 'sass', 'css', 'html', 'js', 'php', 'nodejs'),
+		name: 'Web developer',
 		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		links: [
+			{
+				to: "qoob.uz",
+				label: 'Website'
+			}
+		],
+		logo: Assets.Qoob,
+		shortDescription: 'Making web solutions for customers'
 	},
 	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
+		slug: 'reqlama-uz',
+		company: 'Qoob Creation',
+		description: 'Developing an extensive advertising aggregation system called Reqlama.uz.',
+		contract: ContractType.FullTime,
 		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		location: 'Urgench city. Uzbekistan',
+		period: { from: new Date(2019, 4, 1)},
+		skills: getSkills('go', 'flutter', 'dart', 'postgresql', 'redis', 'nginx', 'angular', 'html', 'css', 'js', 'linux'),
+		name: 'Software Engineer',
 		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		links: [
+			{
+				to: 'https://play.google.com/store/apps/details?id=com.reqlamauz.reqlamauz&hl=en&gl=US',
+				label: 'Play Store',
+			},
+			{
+				to: 'https://apps.apple.com/us/app/reqlama-uz/id1593998995',
+				label: 'App Store',
+			},
+		],
+		logo: Assets.Reqlama,
+		shortDescription: 'Creating reqlama.uz platform.'
 	}
 ];
 

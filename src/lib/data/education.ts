@@ -5,26 +5,26 @@ export const items: Array<Education> = [
 	{
 		degree: 'Bachelor degree of Computer Science',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Uzbekistan',
+		logo: Assets.Tatu,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Tashkent University of Information Technologies',
+		period: { from: new Date(2016, 9, 1), to: new Date(2020, 6, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['C', 'Algorithms and Data Structures', 'Python', 'C++', 'Java', "Software Architechture"]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Master of Arts in Machine Learning',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Japan',
+		logo: Assets.Tohoku,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Tohoku University',
+		period: { from: new Date(2023, 4, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['Python', 'Computer Vision', 'Machine Learning', 'Data Science']
 	}
 ];
 
